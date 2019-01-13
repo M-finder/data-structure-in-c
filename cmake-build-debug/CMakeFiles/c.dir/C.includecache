@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wu/www/c/main.c
+stdio.h
+-
+malloc.h
+-
+stack.c
+/home/wu/www/c/stack.c
+
+/home/wu/www/c/stack.c
+
