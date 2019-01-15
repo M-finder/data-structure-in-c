@@ -1,8 +1,24 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "link_stack.c"
+#include "queue.c"
 
-int main(){
+int main() {
+
+    SqQueue SQ;
+    queue_init(&SQ);
+    en_queue(&SQ, 2);
+    en_queue(&SQ, 3);
+    en_queue(&SQ, 4);
+    en_queue(&SQ, 5);
+
+    print_queue(&SQ);
+
+    printf("Hello, World!\n");
+    return 0;
+}
+
+// 链栈
+/*int main(){
 
     LinkStack  LS;
     link_stack_init(&LS);
@@ -19,6 +35,7 @@ int main(){
     printf("Hello, World!\n");
     return 0;
 }
+*/
 
 // 共享栈
 /*int main() {
