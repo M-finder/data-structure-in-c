@@ -1,8 +1,26 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "queue.c"
+#include "link_queue.c"
 
 int main() {
+
+    LinkQueue LQ;
+    link_queue_init(&LQ);
+    en_link_queue(&LQ, 2);
+    en_link_queue(&LQ, 3);
+    en_link_queue(&LQ, 4);
+    en_link_queue(&LQ, 5);
+    print_link_queue(&LQ);
+
+    ElemType x = de_link_queue(&LQ, 5);
+    print_link_queue(&LQ);
+    printf("%3d\r\n",x);
+    printf("Hello, World!\n");
+    return 0;
+}
+
+// 顺序队列
+/*int main() {
 
     SqQueue SQ;
     queue_init(&SQ);
@@ -11,11 +29,13 @@ int main() {
     en_queue(&SQ, 4);
     en_queue(&SQ, 5);
 
-    print_queue(&SQ);
 
+    print_queue(&SQ);
+    de_queue(&SQ, 5);
+    print_queue(&SQ);
     printf("Hello, World!\n");
     return 0;
-}
+}*/
 
 // 链栈
 /*int main(){
