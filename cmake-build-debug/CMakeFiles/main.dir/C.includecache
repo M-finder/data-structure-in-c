@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/wu/www/data-structure-in-c/link_queue.c
-stdbool.h
--
-
 /home/wu/www/data-structure-in-c/main.c
 stdio.h
 -
 malloc.h
 -
-link_queue.c
-/home/wu/www/data-structure-in-c/link_queue.c
+stack.c
+/home/wu/www/data-structure-in-c/stack.c
+
+/home/wu/www/data-structure-in-c/stack.c
+stdbool.h
+-
+stdio.h
+-
+string.h
+-
 
