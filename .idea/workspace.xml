@@ -12,10 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f22574b-7409-480d-800c-a612af81d41a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.c" beforeDir="false" afterPath="$PROJECT_DIR$/tree.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="332">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="e#36#55#0" expanded="true" />
               </folding>
@@ -83,14 +84,14 @@
       <list>
         <option value="$PROJECT_DIR$/link_queue.c" />
         <option value="$PROJECT_DIR$/stack.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/tree.c" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1047" />
-    <option name="y" value="30" />
+    <option name="x" value="851" />
+    <option name="y" value="35" />
     <option name="width" value="835" />
     <option name="height" value="1028" />
   </component>
@@ -175,15 +176,15 @@
       <workItem from="1547561037285" duration="371000" />
       <workItem from="1547561436710" duration="2424000" />
       <workItem from="1547643206322" duration="6945000" />
-      <workItem from="1548071986006" duration="8060000" />
+      <workItem from="1548071986006" duration="10423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17800000" />
+    <option name="totallyTimeSpent" value="20163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1047" y="30" width="835" height="1028" extended-state="1" />
+    <frame x="851" y="35" width="835" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3278272" />
@@ -191,8 +192,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35016835" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39955106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35016835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="332">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="e#36#55#0" expanded="true" />
           </folding>
@@ -271,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

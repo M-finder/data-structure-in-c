@@ -37,6 +37,21 @@ void foreach_tree(BiTree T) {
         foreach_tree(T->lchild);
         foreach_tree(T->rchild);
     }
-    printf("\r\n\r\n");
 
+}
+
+void foreach_in_tree(BiTree T){
+    if(T != NULL){
+        foreach_in_tree(T->lchild);
+        printf("%c ",T->data);
+        foreach_in_tree(T->rchild);
+    }
+}
+
+void foreach_post_tree(BiTree T){
+    if(T != NULL){
+        foreach_post_tree(T->lchild);
+        foreach_post_tree(T->rchild);
+        printf("%c ",T->data);
+    }
 }

@@ -9,6 +9,14 @@ int main() {
     BiTree T;
     created_tree(&T); // ABD###CD##FG###
     foreach_tree(T);
+    printf("\r\n\r\n");
+
+    foreach_in_tree(T);
+    printf("\r\n\r\n");
+
+    foreach_post_tree(T);
+    printf("\r\n\r\n");
+
     printf("Hello, World!\n");
     return 0;
 }
