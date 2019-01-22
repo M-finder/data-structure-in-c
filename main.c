@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "stack.c"
+#include "tree.c"
+
+
+
+// 二叉树遍历
+int main() {
+    BiTree T;
+    created_tree(&T); // ABD###CD##FG###
+    foreach_tree(T);
+    printf("Hello, World!\n");
+    return 0;
+}
 
 // 链队
 /*int main() {
@@ -92,41 +103,36 @@
 }
 */
 
-int F(int n) {
-    if (n == 0) return 1;  // n == 0 f(0) ==1 递归边界
-    else return n * F(n - 1);  // 递归式 （F(n) = F(n -1) * n）
-}
 
 // 顺序栈
-int main() {
-
+/*int main() {
     int x = F(3);
     printf("%d\r\n",x);
-//    SqStack S;
-//    init(&S);
-//    if (stack_empty(&S)) {
-//        printf("yes\r\n");
-//    }
+    SqStack S;
+    init(&S);
+    if (stack_empty(&S)) {
+        printf("yes\r\n");
+    }
 
-//    push(&S, 2);
-//    push(&S, 3);
-//    push(&S, 4);
-//    push(&S, 5);
-//    括号匹配
-//    char arr[7] = {'[', '(', ')', '(', ')', ']'};
-//    stack_check(&S, arr);
-//    后缀求值
-//    char arr[9] = {5, 2, '*', 1, 8, '*', '+', 2, '/'};
-//    stack_eva(&S, arr);
+    push(&S, 2);
+    push(&S, 3);
+    push(&S, 4);
+    push(&S, 5);
+    括号匹配
+    char arr[7] = {'[', '(', ')', '(', ')', ']'};
+    stack_check(&S, arr);
+    后缀求值
+    char arr[9] = {5, 2, '*', 1, 8, '*', '+', 2, '/'};
+    stack_eva(&S, arr);
 
-//    ElemType  s;
-//    s=  pop(&S,s);
-//    printf("%3d",s);
-//    printf("\r\n");
-//    printStack(&S);
+    ElemType  s;
+    s=  pop(&S,s);
+    printf("%3d",s);
+    printf("\r\n");
+    printStack(&S);
     printf("Hello, World!\n");
     return 0;
-}
+}*/
 
 // 双链表
 /*int main() {

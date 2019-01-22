@@ -11,14 +11,12 @@ stdio.h
 -
 malloc.h
 -
-stack.c
-/home/wu/www/data-structure-in-c/stack.c
+tree.c
+/home/wu/www/data-structure-in-c/tree.c
 
-/home/wu/www/data-structure-in-c/stack.c
+/home/wu/www/data-structure-in-c/tree.c
+stdlib.h
+-
 stdbool.h
--
-stdio.h
--
-string.h
 -
 
