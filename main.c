@@ -1,11 +1,29 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "tree.c"
+#include "stack_tree.c"
 
+
+int main() {
+    BiTree T;
+    SqStack S;
+
+    created_tree(&T);
+    first_foreach_stack_tree(&S,T);
+    printf("\r\n\r\n");
+
+    in_foreach_stack_tree(&S,T);
+
+    printf("\r\n\r\n");
+    rear_foreach_stack_tree(&S,T);
+
+    printf("\r\n\r\n");
+    printf("Hello, World!\n");
+    return 0;
+}
 
 
 // 二叉树遍历
-int main() {
+/*int main() {
     BiTree T;
     created_tree(&T); // ABD###CD##FG###
     foreach_tree(T);
@@ -14,12 +32,12 @@ int main() {
     foreach_in_tree(T);
     printf("\r\n\r\n");
 
-    foreach_post_tree(T);
+    foreach_rear_tree(T);
     printf("\r\n\r\n");
 
     printf("Hello, World!\n");
     return 0;
-}
+}*/
 
 // 链队
 /*int main() {

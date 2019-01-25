@@ -48,7 +48,7 @@ void foreach_in_tree(BiTree T){
     }
 }
 
-void foreach_post_tree(BiTree T){
+void foreach_rear_tree(BiTree T){
     if(T != NULL){
         foreach_post_tree(T->lchild);
         foreach_post_tree(T->rchild);
