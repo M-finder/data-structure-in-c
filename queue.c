@@ -29,6 +29,7 @@ bool de_queue(SqQueue *SQ, ElemType x) {
     return true;
 }
 
+
 void print_queue(SqQueue *SQ) {
 
     for (int i = SQ->front; i < SQ->rear; i++) {

@@ -1,9 +1,21 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "stack_tree.c"
+#include "queue_tree.c"
 
 
 int main() {
+    BiTree T;
+    SqQueue SQ;
+    created_tree(&T);
+    level_foreach_tree(&SQ, T);
+    printf("\r\n\r\n");
+
+    printf("Hello, World!\n");
+    return 0;
+}
+
+// 二叉树非递归遍历
+/*int main() {
     BiTree T;
     SqStack S;
 
@@ -19,13 +31,13 @@ int main() {
     printf("\r\n\r\n");
     printf("Hello, World!\n");
     return 0;
-}
+}*/
 
 
-// 二叉树遍历
+// 二叉树递归遍历
 /*int main() {
     BiTree T;
-    created_tree(&T); // ABD###CD##FG###
+    created_tree(&T); // ABD#G###CE##F##
     foreach_tree(T);
     printf("\r\n\r\n");
 

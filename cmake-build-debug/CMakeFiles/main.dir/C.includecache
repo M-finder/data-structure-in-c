@@ -11,10 +11,10 @@ stdio.h
 -
 malloc.h
 -
-stack_tree.c
-/home/wu/www/data-structure-in-c/stack_tree.c
+queue_tree.c
+/home/wu/www/data-structure-in-c/queue_tree.c
 
-/home/wu/www/data-structure-in-c/stack_tree.c
+/home/wu/www/data-structure-in-c/queue_tree.c
 stdlib.h
 -
 stdbool.h
