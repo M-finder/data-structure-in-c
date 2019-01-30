@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/wu/www/data-structure-in-c/main.c
+C:/www/data-structure-in-c/main.c
 stdio.h
 -
 malloc.h
 -
-queue_tree.c
-/home/wu/www/data-structure-in-c/queue_tree.c
+thread_tree.c
+C:/www/data-structure-in-c/thread_tree.c
 
-/home/wu/www/data-structure-in-c/queue_tree.c
+C:/www/data-structure-in-c/thread_tree.c
 stdlib.h
 -
 stdbool.h

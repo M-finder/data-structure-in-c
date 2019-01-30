@@ -1,3 +1,3 @@
-/home/wu/www/data-structure-in-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wu/www/data-structure-in-c/cmake-build-debug/CMakeFiles/main.dir
-/home/wu/www/data-structure-in-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/www/data-structure-in-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/www/data-structure-in-c/cmake-build-debug/CMakeFiles/main.dir
+C:/www/data-structure-in-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

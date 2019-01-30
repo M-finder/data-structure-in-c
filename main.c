@@ -1,9 +1,22 @@
 #include <stdio.h>
 #include <malloc.h>
-#include "queue_tree.c"
-
+#include "thread_tree.c"
 
 int main() {
+    ThreadTree T;
+    created_tree(&T);
+    foreach_tree(T);
+    printf("\r\n\r\n");
+
+    post_threading(T); // ABD#G###CE##F##
+    post_foreach_thread_tree(T);
+    printf("\r\n\r\n");
+    printf("Hello, World!\n");
+    return 0;
+}
+
+// 二叉树层次遍历
+/*int main() {
     BiTree T;
     SqQueue SQ;
     created_tree(&T);
@@ -12,7 +25,7 @@ int main() {
 
     printf("Hello, World!\n");
     return 0;
-}
+}*/
 
 // 二叉树非递归遍历
 /*int main() {
